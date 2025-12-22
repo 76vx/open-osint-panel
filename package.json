@@ -1,6 +1,7 @@
 {
   "name": "open-osint-panel",
   "version": "1.0.0",
+  "type": "module",
   "description": "",
   "main": "index.js",
   "directories": {
@@ -12,7 +13,6 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs",
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^5.2.1"

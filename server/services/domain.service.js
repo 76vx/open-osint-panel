@@ -1,0 +1,5 @@
+import dns from "dns/promises";
+export async function resolveDomain(domain) {
+    const result = await dns.lookup(domain);
+    return result.address;
+}
