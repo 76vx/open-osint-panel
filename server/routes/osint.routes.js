@@ -8,7 +8,7 @@ const router = express.Router();
 
 function isIP(input) {
   return /^[0-9.]+$/.test(input); //se que se puede hacer de otra manera, pero esta es mas definida y funcional
-   //hacer esti fue una autentica locura y dolor de cabeza pero aprendi algo nuevo
+   //hacer esto fue una autentica locura y dolor de cabeza pero aprendi algo nuevo
 }
 
 router.get("/lookup/:target", async (req, res) => {
