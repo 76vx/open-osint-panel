@@ -13,6 +13,11 @@ function isIP(input) {
 
 router.get("/lookup/:target", async (req, res) => {
   try {
+    const cached = getCache(target);
+if (cached) return res.json({ ...cached, cached: true });
+const response = { input, resolved_ip, whois, data };
+setCache(target, response);
+res.json(response);
     let target = req.params.target;
     let ip = target;
     let whois = null;
