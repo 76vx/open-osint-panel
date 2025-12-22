@@ -7,7 +7,7 @@ fetch("http://localhost:3000/api/health")
     document.getElementById("status").textContent = "Backend not reachable";
 
 });
-function lookup() {
+function lookup() { //Implementacion del lookup para su lectura
   const target = document.getElementById("target").value.trim();
   if (!target) return;
 
