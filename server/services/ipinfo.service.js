@@ -1,12 +1,11 @@
 export async function lookupIP(ip) {
-    const res = await fetch(`https://ipinfo.io/${ip}/json`);
-    const data = await res.json();
+  const response = await fetch(`https://ipinfo.io/${ip}/json`);
 
-    if (data.error) {
-        throw new Error("Invalid IP");
-    }
+  if (!response.ok) {
+    throw new Error("IP lookup failed");
+  }
 
-    return data;
+  return await response.json();
 }
 
 //Se que es una mejora de un servicio ip demasiado basico

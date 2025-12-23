@@ -1,0 +1,97 @@
+body {
+  background: #0b0b0b;
+  color: #00ff88;
+  font-family: monospace;
+  padding: 40px;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, sans-serif;
+}
+
+body {
+  background: #0b0f14;
+  color: #e5e7eb;
+  min-height: 100vh;
+  padding: 30px;
+}
+
+h1 {
+  color: #f43f5e;
+  font-size: 2.2rem;
+  margin-bottom: 5px;
+}
+
+#status {
+  font-size: 0.9rem;
+  color: #9ca3af;
+  margin-bottom: 25px;
+}
+
+input {
+  width: 260px;
+  padding: 10px 12px;
+  background: #111827;
+  border: 1px solid #1f2937;
+  border-radius: 6px;
+  color: #e5e7eb;
+  outline: none;
+}
+
+input::placeholder {
+  color: #6b7280;
+}
+
+button {
+  margin-left: 10px;
+  padding: 10px 16px;
+  background: #f43f5e;
+  border: none;
+  border-radius: 6px;
+  color: #fff;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background 0.2s ease;
+}
+
+button:hover {
+  background: #e11d48;
+}
+
+#result {
+  margin-top: 25px;
+  background: #020617;
+  border: 1px solid #1e293b;
+  border-radius: 8px;
+  padding: 16px;
+  white-space: pre-wrap;
+  font-size: 0.95rem;
+  color: #e5e7eb;
+  max-width: 600px;
+}
+#graph {
+  margin-top: 30px;
+  width: 100%;
+  height: 420px;
+  background: #020617;
+  border: 1px solid #1e293b;
+  border-radius: 12px;
+}
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #020617;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #1f2937;
+  border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #374151;
+}
