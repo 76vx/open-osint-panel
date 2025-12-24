@@ -144,3 +144,4 @@ function clearGraph() {
   const container = document.getElementById("graph");
   if (container) container.innerHTML = "";
 }
+//el estilo lo podria haber hecho en otro script por separado pero me dio pereza

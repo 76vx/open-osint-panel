@@ -22,7 +22,7 @@ app.use((req, res, next) => {
   timestamps.push(now);
   requests.set(ip, timestamps);
 
-  if (timestamps.length > 30) { // 3o requests por minuto, sin uso de librerias y control total, chill de cojones
+  if (timestamps.length > 30) { // 30 requests por minuto, sin uso de librerias y control total, chill de cojones
     return res.status(429).json({ error: "Too many requests" });
   }
 
