@@ -48,3 +48,4 @@ router.get("/lookup/:target", async (req, res) => {
 });
 
 export default router;
+//rutas del osint hechas en js, algo manual y simple pero completamente funcional 
