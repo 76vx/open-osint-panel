@@ -9,3 +9,5 @@ export function setCache(key, value, ttl = 60000) {
 }
 
 // esto contiene un TTL por defecto de 60 segundos xd
+
+//cache demasiado basico, proximamente se actualizare haciendo un mejor uso de los recursos
