@@ -15,3 +15,5 @@ export function whoisLookup(domain) {
     socket.on("error", () => reject());
   });
 }
+
+//Whois real hecho por mi, sin el uso de APIs esternas, 100% funcional sin ningun tipo de problema
