@@ -31,7 +31,13 @@ app.use((req, res, next) => {
 app.use("/api/osint", osintRoutes);
 
 
-
+app.get("/api/health", (req, res) => {
+    res.json({
+        status: "ok",
+        project: "open-osint-panel",
+        message: "OSINT backend running"
+    });
+});
 
 const PORT = 3000;
 app.use(express.static(path.join(__dirname, "../client")));
