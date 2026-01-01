@@ -11,3 +11,5 @@ export async function lookupIP(ip) {
 //Se que es una mejora de un servicio ip demasiado basico
 //pero me dio demasiada pereza hacer algo mejor
 //asi que opte por algo simple pero funcional, si no te gusta, te jodes
+
+//implementación de servicios IP elaborado con js
