@@ -5,4 +5,3 @@ export async function resolveDomain(domain) {
 }
 
 //servicio de dominios 
-// se necesita una mejora, en proximas actualizaciones, algun dia 
